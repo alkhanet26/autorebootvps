@@ -6,6 +6,10 @@ echo -e "Install X-UI English"
 bash <(curl -Ls https://raw.githubusercontent.com/NidukaAkalanka/x-ui-english/master/install.sh)
 clear
 echo -e "Installasi X-ui selesai"
+echo -e "Memulai Installasi WARP Cloudflare"
+wget --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/autorebootvps/main/warp.sh" -O /sbin/warp && chmod +x /sbin/warp
+clear
+echo -e "Installasi WARP selesai"
 echo -e "Memulai installasi Auto Reboot VPS"
 echo -e "Downloading Binaries Files"
 sleep 2
