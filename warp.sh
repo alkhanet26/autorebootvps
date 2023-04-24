@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 #
 # https://github.com/P3TERX/warp.sh
 # Description: Cloudflare WARP Installer
@@ -1145,7 +1145,7 @@ Print_Usage() {
 Cloudflare WARP Installer [${shVersion}]
 
 USAGE:
-    bash <(curl -fsSL git.io/warp.sh) [SUBCOMMAND]
+    warp [SUBCOMMAND]
 
 SUBCOMMANDS:
     install         Install Cloudflare WARP Official Linux Client
