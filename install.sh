@@ -7,13 +7,13 @@ bash <(curl -Ls https://raw.githubusercontent.com/NidukaAkalanka/x-ui-english/ma
 clear
 echo -e "Installasi X-ui selesai"
 echo -e "Memulai Installasi WARP Cloudflare"
-wget --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/autorebootvps/main/warp.sh" -O /sbin/warp && chmod +x /sbin/warp
+wget --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/vpsfree/main/warp.sh" -O /sbin/warp && chmod +x /sbin/warp
 clear
 echo -e "Installasi WARP selesai"
 echo -e "Memulai installasi Auto Reboot VPS"
 echo -e "Downloading Binaries Files"
 sleep 2
-wget --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/autorebootvps/main/auto-reboot.sh" -O /root/auto-reboot.sh && chmod +x /root/auto-reboot.sh
+wget --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/vpsfree/main/auto-reboot.sh" -O /root/auto-reboot.sh && chmod +x /root/auto-reboot.sh
 clear
 echo -e "setting Auto Reboot at 00.00"
 sleep 3
