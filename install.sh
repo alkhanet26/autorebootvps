@@ -17,7 +17,9 @@ wget --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/vpsfre
 clear
 echo -e "setting Auto Reboot at 00.00"
 sleep 3
-echo "0 0 * * *  /root/auto-reboot.sh" > /etc/cron.d/auto-reboot
+echo "0 0 * * * root bash /root/auto-reboot.sh --cron -f >/dev/null 2>&1" > /etc/cron.d/auto-reboot
+echo -e "Setting Permission Auto Reboot"
+chmod +x /etc/cron.d/auto-reboot && chmod +x /root/auto-reboot.sh
 clear
 echo -e "Auto Reboot VPS installed"
 echo -e "Memulai Installasi Speedtest"
