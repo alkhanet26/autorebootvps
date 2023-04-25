@@ -9,3 +9,8 @@ wget --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/vpsfre
 - Menu Script WARP ketik ``warp help``
 
 # Selesai
+
+# Thanx TO:
+1. Niduka Akalanka [https://github.com/NidukaAkalanka]
+
+2. PETER X [https://github.com/P3TERX]
