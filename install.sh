@@ -20,5 +20,9 @@ sleep 3
 echo "0 0 * * *  /root/auto-reboot.sh" > /etc/cron.d/auto-reboot
 clear
 echo -e "Auto Reboot VPS installed"
+echo -e "Memulai Installasi Speedtest"
+wget --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/vpsfree/main/speedtest" -O /usr/bin/speedtest && chmod +x /usr/bin/speedtest
+clear
+echo -e "Installasi Speedtest Selesai"
 sleep 3
 }
