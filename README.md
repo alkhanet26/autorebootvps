@@ -11,6 +11,6 @@ wget --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/vpsfre
 # Selesai
 
 # Thanx TO:
-1. Niduka Akalanka [https://github.com/NidukaAkalanka]
+1. Script X-UI English [Niduka Akalanka](https://github.com/NidukaAkalanka)
 
-2. PETER X [https://github.com/P3TERX]
+2. Script WARP Cloudflare [PETER X](https://github.com/P3TERX)
