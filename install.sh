@@ -3,7 +3,7 @@
 
 {
 echo -e "Install X-UI English"
-bash <(curl -Ls https://raw.githubusercontent.com/NidukaAkalanka/x-ui-english/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/alkhanet26/x-ui-english/master/install.sh)
 clear
 echo -e "Installasi X-ui selesai"
 echo -e "Memulai Installasi WARP Cloudflare"
