@@ -129,7 +129,7 @@ case $opt in
 6) clear ; m-system ;;
 7) clear ; running ;;
 8) clear ; clearcache ;;
-9) clear ; cat /etc/log-create-user.log
+9) clear ; cat /etc/log-create-user.log ;;
 x) exit ;;
 *) echo "Anda salah tekan " ; sleep 1 ; menu ;;
 esac
