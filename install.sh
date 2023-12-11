@@ -6,6 +6,10 @@ echo -e "Install X-UI English"
 bash <(curl -Ls https://raw.githubusercontent.com/MrCenTury/xXx-UI/master/install.sh)
 clear
 echo -e "Installasi X-ui selesai"
+echo -e "Install certbot"
+apt install certbot
+clear
+echo -e "Installasi CerBOT Selesai"
 echo -e "Memulai Installasi WARP Cloudflare"
 wget --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/vpsfree/main/warp.sh" -O /usr/bin/warp && chmod +x /usr/bin/warp
 clear
