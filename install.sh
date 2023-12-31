@@ -7,7 +7,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/MrCenTury/xXx-UI/master/instal
 clear
 echo -e "Installasi X-ui selesai"
 echo -e "Install certbot"
-apt install certbot
+apt install certbot -y
 clear
 echo -e "Installasi CerBOT Selesai"
 echo -e "Memulai Installasi WARP Cloudflare"
