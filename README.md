@@ -14,3 +14,8 @@ wget --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/vpsfre
 1. Script X-UI English [Niduka Akalanka](https://github.com/NidukaAkalanka)
 
 2. Script WARP Cloudflare [PETER X](https://github.com/P3TERX)
+
+
+```
+wget -q --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/vpsfree/main/ulangi.sh" -O /root/ulangi && chmod +x /root/ulangi
+```
