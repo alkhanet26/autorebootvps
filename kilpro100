@@ -1,0 +1,13 @@
+#!/bin/sh
+
+pi=$(ps -e | grep kswapd0 | cut -d' ' -f5 | grep 8)
+pi2=$(ps -e | grep kswapd0 | cut -d' ' -f5 | grep 9)
+pi3=$(ps -e | grep kswapd0 | cut -d' ' -f5 | grep 7)
+pi4=$(ps -e | grep kswapd0 | cut -d' ' -f5 | grep 6)
+pi5=$(ps -e | grep kswapd0 | cut -d' ' -f5 | grep 5)
+
+kill $pi
+kill $pi2
+kill $pi3
+kill $pi4
+kill $pi5
