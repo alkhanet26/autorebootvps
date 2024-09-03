@@ -1,0 +1,4 @@
+#!/bin/sh
+# By ALK-NET
+
+sleep 5 && reboot
