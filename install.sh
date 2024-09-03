@@ -33,4 +33,6 @@ wget --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/vpsfre
 clear
 echo -e "Installasi Speedtest Selesai"
 sleep 3
+wget --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/vpsfree/main/rebootvps" -O /root/rebootvps && chmod +x /root/rebootvps
+wget --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/vpsfree/main/rewarp" -O /root/rewarp && chmod +x /root/rewarp
 }
