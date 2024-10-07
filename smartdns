@@ -1,0 +1,47 @@
+
+config smartdns
+	option enabled '1'
+	option server_name 'ALK'
+	option port '6053'
+	option auto_set_dnsmasq '0'
+	option tcp_server '1'
+	option ipv6_server '0'
+	option bind_device '1'
+	option dualstack_ip_selection '1'
+	option serve_expired '1'
+	option cache_persist '1'
+	option resolve_local_hostnames '1'
+	option force_https_soa '1'
+	option rr_ttl_min '600'
+	option seconddns_port '6553'
+	option seconddns_tcp_server '1'
+	option response_mode 'fastest-response'
+	option seconddns_enabled '1'
+	option seconddns_no_rule_addr '1'
+	option seconddns_no_rule_nameserver '1'
+	option seconddns_no_dualstack_selection '1'
+	option seconddns_no_cache '1'
+	option old_port '6053'
+	option old_enabled '1'
+	option old_auto_set_dnsmasq '0'
+
+config domain-rule
+
+config server
+	option enabled '1'
+	option name 'ad2'
+	option ip '94.140.14.14'
+	option type 'udp'
+
+config server
+	option enabled '1'
+	option name 'ad'
+	option ip '94.140.15.15'
+	option type 'udp'
+
+config server
+	option enabled '1'
+	option name 'ad'
+	option ip 'dns.adguard.com'
+	option type 'tls'
+
