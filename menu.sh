@@ -88,9 +88,9 @@ tram=$( free -m | awk 'NR==2 {print $2}' )
 uram=$( free -m | awk 'NR==2 {print $3}' )
 fram=$( free -m | awk 'NR==2 {print $4}' )
 # DISK Information
-pdisk=$(df -h | grep "G" | cut -d'/' -f3 | cut -d' ' -f14)
-tdisk=$(df -h | grep "G" | cut -d'/' -f3 | cut -d' ' -f8)
-udisk=$(df -h | grep "G" | cut -d'/' -f3 | cut -d' ' -f10)
+pdisk=$(df -h | grep "G" | cut -d'G' -f4 | cut -d/ -f1 | cut -d' ' -f3)
+tdisk=$(df -h | grep "G" | cut -d'G' -f1 | cut -d' ' -f9)
+udisk=$(df -h | grep "G" | cut -d'G' -f2 | cut -d' ' -f3)
 # ACCOUNT INFORMATION
 jssh="$(awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}' /etc/passwd | wc -l)"
 jvms="$(grep -E "^### " "/etc/xray/config.json" | cut -d ' ' -f 2-3 | column -t | sort | uniq | wc -l)"
